@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dragon Santo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Offer">Offer</a>
+            <a href="#Menu">Menu</a>
+            <a href="#News">News</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <!-- <div class="icons">
+            <div class="fas fa-bars id="menu-btn"></div>
+        </div> -->
+    </header>
+<!-- header end -->
+<!-- home start -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome to Dragon Santo Restaurans</h3>
+        <p>It’s finger lickin’ good!</p>
+        <a href="#" class="btn">Reservation</a>
+    </div>
+</section>
+<!-- Home Section End -->
+
+<!-- about section start -->
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/testimonial-1.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Welcome</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <a href="#" class="btn">Reservation</a>
+        </div>
+
+    </div>
+
+</section>
+<!-- about section end -->
+<!-- menu section start -->
+<section class="menu" id="menu">
+    <h1 class="heading-two"> Offers <span>& Promos</span> </h1>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/menu-img/offer_1.jpg" alt="">
+            <div class="price">$39.50 <span></span></div>
+            <h3>Beef with Sauce</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn">Order Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-img/offer_2.jpg" alt="">
+            <div class="price">$39.50 <span></span></div>
+            <h3>Fress Salmon Fish</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn">Order Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-img/offer_3.jpg" alt="">
+            <div class="price">$39.50 <span></span></div>
+            <h3>Beef Ribs</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <a href="#" class="btn">Order Now!</a>
+        </div>
+    </div>
+
+
+</section>
+<!-- menu section end -->
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header =document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+</script>
+</body>
+</html>
